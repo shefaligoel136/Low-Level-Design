@@ -2,21 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="101f66bf-22d5-4e2c-a239-2b08c418c1bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LLD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accessModifiers/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accessModifiers/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accessModifiers/StudentChild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/accessModifiersTesting/StudentChild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constructors/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constructors/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodOverloading/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodOverloading/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodOverriding/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodOverriding/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodOverriding/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constructors/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/constructors/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constructors/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/constructors/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,16 +51,56 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.constructors.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops1.Client" />
+  <component name="RunManager" selected="Application.Interface.Client">
+    <configuration name="Inheritance.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inheritance.Client" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops1.*" />
+          <option name="PATTERN" value="Inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Interface.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interface.Client" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodOverloading.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodOverloading.Client" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MethodOverloading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodOverriding.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodOverriding.Client" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MethodOverriding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,8 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Interface.Client" />
+        <item itemvalue="Application.MethodOverriding.Client" />
+        <item itemvalue="Application.MethodOverloading.Client" />
+        <item itemvalue="Application.Inheritance.Client" />
         <item itemvalue="Application.constructors.Client" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -105,20 +154,6 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/oops1/Client.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/constructors/Client.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="st.name" />

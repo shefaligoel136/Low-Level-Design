@@ -14,5 +14,10 @@ public class Student {
 //    if we have custom constructor - we will have to define the default constructor.
     public Student(){}
 
+    public Student(Student student){
+        this.name = student.name;
+        this.age = student.age;
+    }
+
 
 }
