@@ -2,43 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="101f66bf-22d5-4e2c-a239-2b08c418c1bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Threads/AdderSubtractorNoSync/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/AdderSubtractorNoSync/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/AdderSubtractorNoSync/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/AdderSubtractorNoSync/Subtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/AtomicInteger/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/AtomicInteger/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/AtomicInteger/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/AtomicInteger/Subtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/Callable/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/Callable/GreetingsGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/Locks/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/Locks/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/Locks/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/Locks/Subtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/Print1ToN/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/Print1ToN/NumberPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/Print1toNPart2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/Print1toNPart2/NumberPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/ProducerConsumer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/ProducerConsumer/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/ProducerConsumer/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/ProducerConsumerSemaphore/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/ProducerConsumerSemaphore/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/ProducerConsumerSemaphore/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/SeperateThreads/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/SeperateThreads/DemoPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/SynchronizedBlock/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/SynchronizedBlock/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/SynchronizedBlock/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/SynchronizedBlock/Subtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/SynchronizedMethod/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/SynchronizedMethod/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/SynchronizedMethod/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/SynchronizedMethod/Subtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/ThreadName/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/ThreadPoll/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Threads/ThreadPoll/NumberPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Singleton/DoubleChecking/DataBaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Singleton/EagerLoading/DataBaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Singleton/SingleThread/DataBaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Singleton/Synchronized/DataBaseConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,14 +33,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/shefaligoel/IdeaProjects/LLD/src/Threads/ProducerConsumerSemaphore"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shefaligoel/IdeaProjects/LLD/src/Threads/ProducerConsumerSemaphore&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Threads/ProducerConsumerSemaphore" />
