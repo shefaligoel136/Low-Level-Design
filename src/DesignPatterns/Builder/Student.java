@@ -10,22 +10,10 @@ public class Student {
     private int gradYear;
     private String phoneNumber;
 
-    Student(Builder builder){
-//        VALIDATION
-        if(builder.getGradYear() > 2022){
-            throw new IllegalArgumentException("Grad year cannot be greater than 2022");
-        }
+    private Student() {}
 
-        this.name = builder.getName();
-        this.age = builder.getAge();
-        this.psp = builder.getPsp();
-        this.universityName = builder.getUniversityName();
-        this.batch = builder.getBatch();
-        this.id = builder.getId();
-        this.gradYear = builder.getGradYear();
-        this.phoneNumber = builder.getPhoneNumber();
-    }
-
+    //Builder Class is the Inner class of Student class.
+    //Builder class is kind of an attribute for Student class.
     public static class Builder {
         private String name;
         private int age;
@@ -36,6 +24,7 @@ public class Student {
         private int gradYear;
         private String phoneNumber;
 
+        private Builder(){}
         public String getName() {
             return name;
         }
@@ -58,24 +47,27 @@ public class Student {
             return psp;
         }
 
-        public void setPsp(double psp) {
+        public Builder setPsp(double psp) {
             this.psp = psp;
+            return this;
         }
 
         public String getUniversityName() {
             return universityName;
         }
 
-        public void setUniversityName(String universityName) {
+        public Builder setUniversityName(String universityName) {
             this.universityName = universityName;
+            return this;
         }
 
         public String getBatch() {
             return batch;
         }
 
-        public void setBatch(String batch) {
+        public Builder setBatch(String batch) {
             this.batch = batch;
+            return this;
         }
 
         public long getId() {
@@ -100,18 +92,28 @@ public class Student {
             return phoneNumber;
         }
 
-        public void setPhoneNumber(String phoneNumber) {
+        public Builder setPhoneNumber(String phoneNumber) {
             this.phoneNumber = phoneNumber;
+            return this;
         }
 
-        public static Builder getBuilder(){
-            return new Builder();
-        }
+        public Student build() {
+            //Validations start
+            if (this.getGradYear() > 2022) {
+                throw new IllegalArgumentException("Grad Year can't be greater than 2022");
+            }
+            //Validations end
 
-        public Student build(){
-            return new Student(this);
+            Student st = new Student();
+            st.name = this.getName();
+            st.age = this.getAge();
+            st.psp = this.getPsp();
+            st.gradYear = this.getGradYear();
+            //
+            return st;
         }
     }
-
-
+    public static Builder getBuilder() {
+        return new Builder();
+    }
 }

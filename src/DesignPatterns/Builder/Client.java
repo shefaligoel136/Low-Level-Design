@@ -2,14 +2,23 @@ package DesignPatterns.Builder;
 
 public class Client {
     public static void main(String[] args) {
-        Builder builder = new Builder();
-        builder.setName("Shefali Goel");
-        builder.setAge(24);
-        builder.setPsp(99.0);
-        builder.setGradYear(2023);
+//        Builder builder = Builder.getBuilder();
+//        builder.setName("Deepak");
+//        builder.setAge(27);
+//        builder.setPsp(90.0);
+//        builder.setGradYear(2021);
 
-//        Student student = new Student(builder);
+        Student student = Student.getBuilder()
+                .setName("Girbaan")
+                .setAge(25)
+                .setPsp(90.0)
+                .setGradYear(2020).build();
 
-        Student builderStudent = Builder.getBuilder().setName("Shefali").setAge(24).setGradYear(2022).build();
+        //Student student1 = new Student();
+        //Student.Builder builder = new Student.Builder();
+        //Student st = new Student(builder1);
+        //Student st1 = new Student(null);
+
+        System.out.println("DEBUG");
     }
 }
