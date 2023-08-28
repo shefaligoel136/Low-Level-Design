@@ -8,7 +8,7 @@ public class Client {
         builder.setPsp(99.0);
         builder.setGradYear(2023);
 
-        Student student = new Student(builder);
+//        Student student = new Student(builder);
 
         Student builderStudent = Builder.getBuilder().setName("Shefali").setAge(24).setGradYear(2022).build();
     }
