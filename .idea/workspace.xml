@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="101f66bf-22d5-4e2c-a239-2b08c418c1bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/IntellijStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/StudentRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/Android_UIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/Component/AndroidButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/Component/AndroidMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/Component/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/Component/IOSButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/Component/IOSMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/Component/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/Flutter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/IOS_UIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/SupportedPlatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/UIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/UIFactory_Abstraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Builder/Builder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Builder/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Builder/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Builder/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -57,7 +63,7 @@
       <recent name="Threads.ThreadPoll" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DesignPatterns.Prototype.Client">
+  <component name="RunManager" selected="Application.DesignPatterns.Factory.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.Builder.Client" />
       <module name="LLD" />
@@ -71,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DesignPatterns.Prototype.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Prototype.Client" />
+    <configuration name="DesignPatterns.Factory.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Factory.Client" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.Prototype.*" />
+          <option name="PATTERN" value="DesignPatterns.Factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Threads.AtomicInteger.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Threads.AtomicInteger.Client" />
+    <configuration name="DesignPatterns.Prototype.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Prototype.Client" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Threads.AtomicInteger.*" />
+          <option name="PATTERN" value="DesignPatterns.Prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesignPatterns.Factory.Client" />
         <item itemvalue="Application.DesignPatterns.Prototype.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Threads.ProducerConsumerSemaphore.Client" />
         <item itemvalue="Application.Threads.ProducerConsumer.Client" />
-        <item itemvalue="Application.Threads.AtomicInteger.Client" />
       </list>
     </recent_temporary>
   </component>
