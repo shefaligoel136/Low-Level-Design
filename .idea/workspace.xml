@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="101f66bf-22d5-4e2c-a239-2b08c418c1bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BasicsOfJava/DataTypes/DataType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BasicsOfJava/Immutables/Wrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BasicsOfJava/MathQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BasicsOfJava/StaticDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExceptionHandling/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambdas/Basic/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambdas/Basic/ISimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambdas/Demo/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambdas/Demo/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambdas/Demo/IDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambdas/LearningAdvance/CarDemoUsingLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambdas/LearningAdvance/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambdas/LearningAdvance/RunnableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambdas/ParameterizedAndReturn/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lambdas/ParameterizedAndReturn/IParameterizedAndReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/PriorityQueue/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/PriorityQueue/CarPowerComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/PriorityQueue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,39 +55,13 @@
       <recent name="Threads.ThreadPoll" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarDemoUsingLambda">
+  <component name="RunManager" selected="Application.Streams.Main">
     <configuration name="CarDemoUsingLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lambdas.LearningAdvance.CarDemoUsingLambda" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lambdas.LearningAdvance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lambdas.Basic.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lambdas.Basic.Client" />
-      <module name="LLD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lambdas.Basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lambdas.Demo.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lambdas.Demo.Client" />
-      <module name="LLD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lambdas.Demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,6 +82,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.PriorityQueue.Main" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collections.PriorityQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunnableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lambdas.LearningAdvance.RunnableDemo" />
       <module name="LLD" />
@@ -132,13 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Streams.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Streams.Main" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Streams.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CarDemoUsingLambda" />
         <item itemvalue="Application.RunnableDemo" />
         <item itemvalue="Application.Lambdas.ParameterizedAndReturn.Client" />
-        <item itemvalue="Application.Lambdas.Basic.Client" />
-        <item itemvalue="Application.Lambdas.Demo.Client" />
       </list>
     </recent_temporary>
   </component>
